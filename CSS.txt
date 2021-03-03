@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.al-items {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.position-rel {
+  position: relative;
+}
+
+.j-content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#logo {
+  left: 13px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.margin-topp {
+  margin-top: 15px;
+}
+
+.sp-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.center {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.padding-both {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#litle-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bg-image {
+  background-image: url("../img/pozadina-jpg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-image #logo {
+  color: #c7f1ff;
+  font-size: 50px;
+}
+
+.bg-image #center-text h1 {
+  color: #c7f1ff;
+}
+
+header nav ul li {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  color: #c7f1ff;
+  font-size: 20px;
+}
+
+header nav ul li a:hover {
+  color: #586c73;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#cover-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px auto;
+  width: 20%;
+  padding-top: 200px;
+  padding-bottom: 300px;
+  color: #c7f1ff;
+  /*right:70px*/
+  right: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#cover-text h1 {
+  border-bottom: 4px solid #fff;
+}
+
+#cover-text h2 {
+  margin-top: 3px;
+}
+
+#cover-text a {
+  color: #fff;
+  margin-top: 20px;
+  border: 2px solid #c7f1ff;
+  padding: 10px 20px;
+}
+
+#cover-text a:hover {
+  background-color: #c7f1ff;
+  color: #100f15;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.block {
+  -webkit-box-shadow: 5px 10px 10px #7d93bd;
+          box-shadow: 5px 10px 10px #7d93bd;
+  background-color: #100f15;
+  width: 23%;
+  color: #fff;
+  border-radius: 3%;
+}
+
+.block:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.block i {
+  font-size: 15vh;
+  color: #586c73;
+  margin-top: 30px;
+}
+
+.block p {
+  padding: 20px;
+}
+
+.block h3 {
+  color: #c7f1ff;
+}
+
+.work {
+  background-color: #100f15;
+  margin: 20px auto;
+  border-radius: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.work:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.work h3, .work h4 {
+  color: #c7f1ff;
+}
+
+.work p {
+  color: #fff;
+}
+
+.work h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.work a img {
+  height: 250px;
+  padding: 10px 15px;
+}
+
+#about img {
+  width: 250px;
+  border-radius: 50%;
+  border: 3px solid #100f15;
+  margin-bottom: 40px;
+}
+
+#text {
+  width: 60%;
+}
+
+#text p {
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 50px;
+  margin-left: 60px;
+  white-space: wrap;
+}
+
+#text p a {
+  color: #100f15;
+  font-weight: 900;
+}
+
+footer {
+  background-color: #100f15;
+  color: #fff;
+}
+
+footer #holder {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer #holder .info1 i {
+  font-size: 25px;
+  margin: 5px;
+}
+
+footer #holder .info1 a {
+  color: #fff;
+}
+
+footer #holder .info1 h4 {
+  color: #c7f1ff;
+  margin-bottom: 10px;
+}
+
+tbody tr td input, textarea, button {
+  width: 500px;
+  resize: none;
+  background: 0 0;
+  border: 0.5px solid grey;
+  color: #fff;
+  outline: none;
+  padding: 15px;
+}
+
+#picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#butt {
+  width: 100%;
+}
+
+#butt:hover {
+  background-color: #c7f1ff;
+  color: #100f15;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
