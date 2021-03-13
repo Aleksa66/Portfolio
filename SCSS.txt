@@ -73,7 +73,7 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    #logo{
+    #logo a{
         color:$blue-color;
         font-size:50px;
     }
@@ -82,7 +82,7 @@ ul{
     }
 }
 header nav ul li{
-    margin-left:30px;
+    margin-left:27px;
     margin-top:20px;
     a{
         text-transform: uppercase;

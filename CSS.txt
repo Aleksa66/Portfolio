@@ -86,7 +86,7 @@ ul {
   background-attachment: fixed;
 }
 
-.bg-image #logo {
+.bg-image #logo a{
   color: #c7f1ff;
   font-size: 50px;
 }
@@ -96,7 +96,7 @@ ul {
 }
 
 header nav ul li {
-  margin-left: 30px;
+  margin-left: 27px;
   margin-top: 20px;
 }
 
