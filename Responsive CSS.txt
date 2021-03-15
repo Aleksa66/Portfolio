@@ -80,7 +80,7 @@
 }
 @media screen and (max-width:566px){
     #text p{
-        font-size:10px;
+        font-size:15px;
     }
     footer{
         flex-direction:column;
@@ -111,10 +111,10 @@
 }
 @media screen and (max-width:490px){
     #text p{
-        font-size:13px;
+        font-size:11px;
     }
     #about img{
-        width:250px;
+        width:200px;
     }
 }
 @media screen and (max-width:440px){
